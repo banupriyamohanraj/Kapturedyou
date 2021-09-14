@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 
 .About__container{
     font-family: 'Roboto Slab', serif;
@@ -7,13 +8,15 @@
 .About__title{
     text-align: center;
     padding: 10px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .About__Description{
-    margin: 30px;
+    margin: 0 70px;
     text-align: justify;
     letter-spacing: 1px;
     word-spacing: 1mm;
+    font-size: 18px;
 }
 .logo{
     display: block;

@@ -1,32 +1,18 @@
-import Kaptured from "../../Images/Kaptured.png"
+
 import About from "../About/About";
 import Myportfolio from "../Myportfolio/Myportfolio"
 import Footer from "../Footer/Footer";
-import { Link } from 'react-scroll'
+import Navbar from "../Navbar/Navbar";
+
 import SimpleReactLightbox from 'simple-react-lightbox';
 
 export default function Portfolio() {
     return <>
 
 
-        <div className="Portfolio__container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src={Kaptured} alt="logo" height="100px" width="150px" ></img>&emsp;
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <Link to="About" smooth={true} duration={500} activeClass="active" offset={-70}>ABOUT <span class="sr-only">(current)</span></Link>&emsp;
-                        <Link to="fashion" smooth={true} duration={500} offset={-70}> FASHION</Link>&emsp;
-                        <Link to ="event" smooth={true} duration={500} offset={-70}>EVENT</Link>
+        
 
-                    </div>
-                </div>
-            </nav>
-        </div>
-
-       
+       <Navbar/>
             <About />
             <SimpleReactLightbox>
             <Myportfolio />

@@ -1,6 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .Portfolio__container{
     top:0;
     position: sticky;
     z-index: 2000;
+    font-family: 'Bebas Neue', cursive !important;
+
     
+}
+
+.Portfolio__containe>h6{
+    font-size:18px;
+    cursor:pointer;
+    transition: transform 100ms ease-in-out;
+    font-family: 'Bebas Neue', cursive !important;
+    padding:20px 0;
+    letter-spacing: 1px;
+}
+
+.Portfolio__container>h6:hover{
+    transform:scale(1.09);
+    border-bottom: 2px solid black;
+  
+    padding:5px 20px;
+    border-radius:2px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive !important;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.Portfolio__container>h6.active{
+
+   color:white !important;
 }

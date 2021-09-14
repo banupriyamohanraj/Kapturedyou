@@ -13,6 +13,8 @@ import img9 from "../../Images/Event/e9.jpeg"
 import img10 from "../../Images/Event/e10.jpeg"
 import img43 from "../../Images/Event/e11.jpeg"
 import img44 from "../../Images/Event/e12.jpeg"
+import img45 from "../../Images/Event/e13.jpeg"
+import img46 from "../../Images/Event/e14.jpeg"
 //fashion
 import img11 from "../../Images/Fashion/girl1/f1.jpeg"
 import img12 from "../../Images/Fashion/girl1/f2.jpeg"
@@ -22,7 +24,7 @@ import img15 from "../../Images/Fashion/girl1/f5.jpeg"
 import img16 from "../../Images/Fashion/girl1/f6.jpeg"
 import img17 from "../../Images/Fashion/girl1/f7.jpeg"
 import img18 from "../../Images/Fashion/girl1/f8.jpeg"
-import img19 from "../../Images/Fashion/girl1/f9.jpeg"
+
 import img20 from "../../Images/Fashion/girl1/f10.jpeg"
 import img21 from "../../Images/Fashion/girl1/f11.jpeg"
 import img22 from "../../Images/Fashion/girl1/f12.jpeg"
@@ -70,7 +72,7 @@ export default function About() {
                     <a classname="fancybox" href={img16} data-fancybox="gallery1"> <img src={img16} alt="..."></img></a>
                     <a classname="fancybox" href={img17} data-fancybox="gallery1"> <img src={img17} alt="..."></img></a>
                     <a classname="fancybox" href={img18} data-fancybox="gallery1"> <img src={img18} alt="..."></img></a>
-                    <a classname="fancybox" href={img19} data-fancybox="gallery1"> <img src={img19} alt="..."></img></a>
+                   
                     <a classname="fancybox" href={img20} data-fancybox="gallery1"> <img src={img20} alt="..."></img></a>
                     <a classname="fancybox" href={img21} data-fancybox="gallery1"> <img src={img21} alt="..."></img></a>
                     <a classname="fancybox" href={img22} data-fancybox="gallery1"> <img src={img22} alt="..."></img></a>
@@ -116,6 +118,8 @@ export default function About() {
                     <a classname="fancybox" href={img10} data-fancybox="gallery1"> <img src={img10} alt="..."></img></a>
                     <a  classname="fancybox" href={img43} data-fancybox="gallery1"> <img src={img43} alt="..."></img></a>
                     <a classname="fancybox" href={img44} data-fancybox="gallery1"> <img src={img44} alt="..."></img></a>
+                    <a classname="fancybox" href={img45} data-fancybox="gallery1"> <img src={img45} alt="..."></img></a>
+                    <a classname="fancybox" href={img46} data-fancybox="gallery1"> <img src={img46} alt="..."></img></a>
                 </div>
             </div>
 

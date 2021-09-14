@@ -32,16 +32,20 @@
     background-size: 2000px;
     
     border: 2px solid;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .quote>h1{
 text-align: center;
 font-family: 'Bebas Neue', cursive !important;
 font-size: 70px;
-
+letter-spacing: 1px;
 }
-
+.btn:hover{
+    cursor: pointer;
+    background-color: black !important;
+    color:white !important
+}
 
 
 .quote{
@@ -49,3 +53,62 @@ font-size: 70px;
     top:130px;
     left:300px;
 }
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .quote{
+        top:10px;
+        left:0px;
+    }
+    .quote>h1{
+        font-size: 20px;
+    }
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .quote{
+        top:10px;
+        left:10px;
+    }
+    .quote>h1{
+        font-size: 40px;
+    }
+ 
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .quote{
+        top:30px;
+        left:50px;
+    }
+    .quote>h1{
+        font-size: 40px;
+    }
+ 
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .quote{
+        top:70px;
+        left:80px;
+    }
+    .quote>h1{
+        font-size: 60px;
+    }
+ 
+ }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .quote{
+        top:130px;
+        left:300px;
+    }
+  
+ }
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
