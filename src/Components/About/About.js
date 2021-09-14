@@ -6,7 +6,7 @@ export default function About() {
     return <>
         <Element name="About" className="About__container">
             <div className="About__title">
-                <h2>About us</h2>
+                <h2>ABOUT US</h2>
 
             </div>
             <div className="logo">
@@ -24,10 +24,10 @@ export default function About() {
             <div className="contact__container">
 
             Please connect with us in &ensp;
-            <a href="https://instagram.com/kapturedstudio_?utm_medium=copy_link" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"alt="..."/></a>
+            <a href="https://instagram.com/kapturedstudio_?utm_medium=copy_link" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios/40/000000/instagram-new--v1.png"alt="..."/></a>
             &ensp;
            
-            <a href="https://www.facebook.com/kaptured.you" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/50/000000/facebook-circled--v1.png" alt="..."/></a>
+            <a href="https://www.facebook.com/kaptured.you" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/40/000000/facebook-circled--v1.png" alt="..."/></a>
            
             </div>
             </div>

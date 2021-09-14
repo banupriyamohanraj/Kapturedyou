@@ -16,8 +16,8 @@ export default function Portfolio() {
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <Link to="About" smooth={true} duration={500} activeClass="active" offset={-70}>ABOUT <span class="sr-only">(current)</span></Link>&emsp;
-                        <Link to="Myportfolio" smooth={true} duration={500} offset={-70}> PORTFOLIO</Link>
-
+                        <Link to="fashion" smooth={true} duration={500} offset={-70}> FASHION</Link>&emsp;
+                        <Link to ="event" smooth={true} duration={500} offset={-70}>EVENT</Link>
 
                     </div>
                 </div>
