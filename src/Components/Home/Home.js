@@ -1,23 +1,28 @@
 import "./Home.css"
-import Kaptured from "../../Images/Kaptured.png"
-import {Link} from "react-router-dom";
-export default function Home(){
+import { Link } from "react-router-dom";
+
+
+export default function Home() {
     return <>
-    
-    <div className="Home__container">
-    <div className="Home__Title">
-       <img src={Kaptured} alt="..." class="center"></img>
-        </div> 
-<div className="Home__subTitle">
-    
-<h3>Fashion | Event Photography</h3><br/>
 
-<Link to="/portfolio"><button type="button" className="btn btn-dark">Enter</button></Link>
-</div>
+        <div className="Home__container ">
+            <div className="row ">
+                <div className=" col-6 Home__subTitle">
+                    <div className="quote">
+                        <h1>SMILE FOR<br /> A <span style={{color:"darkorange"}}>MOMENT</span>,<br /> LET ME <br /><span style={{color:"darkorange"}}>KAPTURE</span> YOU </h1>
+                    
+                        <h5>Fashion | Event Photography</h5><br />
 
-    </div>
-    
-    {/* C:\Users\sowmya\Desktop\kapturedyouportfolio\src */}
-   
+<Link to="/portfolio"><button type="button" className="btn btn-warning" style={{backgroundColor:"darkorange",fontWeight:"600"}}>PORTFOLIO</button></Link>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        {/* C:\Users\sowmya\Desktop\kapturedyouportfolio\src */}
+
     </>
 }

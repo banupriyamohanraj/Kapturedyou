@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+.Footer__container{
+    background-color: black;
+    color:white;
+    padding:30px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    align-items: center;
+}
+.copyrights{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 30px;
+}

@@ -1,4 +1,5 @@
 import "./Myportfolio.css"
+import { SRLWrapper } from "simple-react-lightbox"
 //event
 import img1 from "../../Images/Event/e1.jpeg"
 import img2 from "../../Images/Event/e2.jpeg"
@@ -55,69 +56,71 @@ import { Element } from 'react-scroll'
 
 export default function About() {
     return <>
+     <SRLWrapper>
         <Element name="fashion">
             <div className="Myportfolio__container">
                 <div className="fashion__title"><h2>FASHION PHOTOGRAPHY </h2></div>
-                <div className="portfolio__gallery">
-                    <a href={img11}><img src={img11} alt="..."></img></a>
-                    <a href={img12}><img src={img12} alt="..."></img></a>
-                    <a href={img13}> <img src={img13} alt="..."></img></a>
-                    <a href={img14}>  <img src={img14} alt="..."></img></a>
-                    <a href={img15}> <img src={img15} alt="..."></img></a>
-                    <a href={img16}> <img src={img16} alt="..."></img></a>
-                    <a href={img17}> <img src={img17} alt="..."></img></a>
-                    <a href={img18}> <img src={img18} alt="..."></img></a>
-                    <a href={img19}> <img src={img19} alt="..."></img></a>
-                    <a href={img20}> <img src={img20} alt="..."></img></a>
-                    <a href={img21}> <img src={img21} alt="..."></img></a>
-                    <a href={img22}> <img src={img22} alt="..."></img></a>
-                    <a href={img23}> <img src={img23} alt="..."></img></a>
-                    <a href={img24}> <img src={img24} alt="..."></img></a>
-                    <a href={img25}> <img src={img25} alt="..."></img></a>
-                    <a href={img26}> <img src={img26} alt="..."></img></a>
-                    <a href={img27}> <img src={img27} alt="..."></img></a>
-                    <a href={img28}> <img src={img28} alt="..."></img></a>
-                    <a href={img29}> <img src={img29} alt="..."></img></a>
-                    <a href={img38}> <img src={img38} alt="..."></img></a>
-                    <a href={img39}> <img src={img39} alt="..."></img></a>
-                    <a href={img40}> <img src={img40} alt="..."></img></a>
-                    <a href={img41}> <img src={img41} alt="..."></img></a>
-                    <a href={img42}> <img src={img42} alt="..."></img></a>
-                    <a href={img30}> <img src={img30} alt="..."></img></a>
-                    <a href={img31}> <img src={img31} alt="..."></img></a>
-                    <a href={img32}> <img src={img32} alt="..."></img></a>
-                    <a href={img33}> <img src={img33} alt="..."></img></a>
-                    <a href={img34}> <img src={img34} alt="..."></img></a>
-                    <a href={img35}> <img src={img35} alt="..."></img></a>
-                    <a href={img36}> <img src={img36} alt="..."></img></a>
-                    <a href={img37}> <img src={img37} alt="..."></img></a>
-                </div>
                
-              
+                <div className="item">
+                    <a classname="fancybox" href={img11} data-fancybox="gallery1"><img src={img11} alt="..."></img></a>
+                    <a classname="fancybox" href={img12} data-fancybox="gallery1"><img src={img12} alt="..."></img></a>
+                    <a classname="fancybox" href={img13} data-fancybox="gallery1"> <img src={img13} alt="..."></img></a>
+                    <a classname="fancybox" href={img14} data-fancybox="gallery1">  <img src={img14} alt="..."></img></a>
+                    <a classname="fancybox" href={img15} data-fancybox="gallery1"> <img src={img15} alt="..."></img></a>
+                    <a classname="fancybox" href={img16} data-fancybox="gallery1"> <img src={img16} alt="..."></img></a>
+                    <a classname="fancybox" href={img17} data-fancybox="gallery1"> <img src={img17} alt="..."></img></a>
+                    <a classname="fancybox" href={img18} data-fancybox="gallery1"> <img src={img18} alt="..."></img></a>
+                    <a classname="fancybox" href={img19} data-fancybox="gallery1"> <img src={img19} alt="..."></img></a>
+                    <a classname="fancybox" href={img20} data-fancybox="gallery1"> <img src={img20} alt="..."></img></a>
+                    <a classname="fancybox" href={img21} data-fancybox="gallery1"> <img src={img21} alt="..."></img></a>
+                    <a classname="fancybox" href={img22} data-fancybox="gallery1"> <img src={img22} alt="..."></img></a>
+                    <a classname="fancybox" href={img23} data-fancybox="gallery1"> <img src={img23} alt="..."></img></a>
+                    <a classname="fancybox" href={img24} data-fancybox="gallery1"> <img src={img24} alt="..."></img></a>
+                    <a classname="fancybox" href={img25} data-fancybox="gallery1"> <img src={img25} alt="..."></img></a>
+                    <a classname="fancybox" href={img26} data-fancybox="gallery1"> <img src={img26} alt="..."></img></a>
+                    <a classname="fancybox" href={img27} data-fancybox="gallery1"> <img src={img27} alt="..."></img></a>
+                    <a classname="fancybox" href={img28} data-fancybox="gallery1"> <img src={img28} alt="..."></img></a>
+                    <a classname="fancybox" href={img29} data-fancybox="gallery1"> <img src={img29} alt="..."></img></a>
+                    <a classname="fancybox" href={img38} data-fancybox="gallery1"> <img src={img38} alt="..."></img></a>
+                    <a classname="fancybox" href={img39} data-fancybox="gallery1"> <img src={img39} alt="..."></img></a>
+                    <a classname="fancybox" href={img40} data-fancybox="gallery1"> <img src={img40} alt="..."></img></a>
+                    <a classname="fancybox" href={img41} data-fancybox="gallery1"> <img src={img41} alt="..."></img></a>
+                    <a classname="fancybox" href={img42} data-fancybox="gallery1"> <img src={img42} alt="..."></img></a>
+                    <a classname="fancybox" href={img30} data-fancybox="gallery1"> <img src={img30} alt="..."></img></a>
+                    <a classname="fancybox" href={img31} data-fancybox="gallery1"> <img src={img31} alt="..."></img></a>
+                    <a classname="fancybox" href={img32} data-fancybox="gallery1"> <img src={img32} alt="..."></img></a>
+                    <a classname="fancybox" href={img33} data-fancybox="gallery1"> <img src={img33} alt="..."></img></a>
+                    <a classname="fancybox" href={img34} data-fancybox="gallery1"> <img src={img34} alt="..."></img></a>
+                    <a classname="fancybox" href={img35} data-fancybox="gallery1"> <img src={img35} alt="..."></img></a>
+                    <a classname="fancybox" href={img36} data-fancybox="gallery1"> <img src={img36} alt="..."></img></a>
+                    <a classname="fancybox" href={img37} data-fancybox="gallery1"> <img src={img37} alt="..."></img></a>
+                </div>
+
+
             </div>
-            </Element>
-            <Element name="event">
+        </Element>
+        <Element name="event">
             <div className="Myportfolio__container">
                 <div className="fashion__title"><h2>EVENT PHOTOGRAPHY</h2></div>
-                <div className="portfolio__gallery">
+                <div className="item">
 
-                    <a href={img1}>  <img src={img1} alt="..."></img></a>
-                    <a href={img2}>  <img src={img2} alt="..."></img></a>
-                    <a href={img3}> <img src={img3} alt="..."></img></a>
-                    <a href={img4}> <img src={img4} alt="..."></img></a>
-                    <a href={img5}> <img src={img5} alt="..."></img></a>
-                    <a href={img6}> <img src={img6} alt="..."></img></a>
-                    <a href={img7}> <img src={img7} alt="..."></img></a>
-                    <a href={img8}> <img src={img8} alt="..."></img></a>
-                    <a href={img9}> <img src={img9} alt="..."></img></a>
-                    <a href={img10}> <img src={img10} alt="..."></img></a>
-                    <a href={img43}> <img src={img43} alt="..."></img></a>
-                    <a href={img44}> <img src={img44} alt="..."></img></a>
+                    <a classname="fancybox"href={img1} data-fancybox="gallery1">  <img src={img1} alt="..."></img></a>
+                    <a  classname="fancybox"href={img2} data-fancybox="gallery1">  <img src={img2} alt="..."></img></a>
+                    <a  classname="fancybox" href={img3} data-fancybox="gallery1"> <img src={img3} alt="..."></img></a>
+                    <a classname="fancybox" href={img4} data-fancybox="gallery1"> <img src={img4} alt="..."></img></a>
+                    <a classname="fancybox" href={img5} data-fancybox="gallery1"> <img src={img5} alt="..."></img></a>
+                    <a classname="fancybox" href={img6}data-fancybox="gallery1" > <img src={img6} alt="..."></img></a>
+                    <a classname="fancybox" href={img7} data-fancybox="gallery1"> <img src={img7} alt="..."></img></a>
+                    <a classname="fancybox" href={img8} data-fancybox="gallery1"> <img src={img8} alt="..."></img></a>
+                    <a classname="fancybox" href={img9} data-fancybox="gallery1"> <img src={img9} alt="..."></img></a>
+                    <a classname="fancybox" href={img10} data-fancybox="gallery1"> <img src={img10} alt="..."></img></a>
+                    <a  classname="fancybox" href={img43} data-fancybox="gallery1"> <img src={img43} alt="..."></img></a>
+                    <a classname="fancybox" href={img44} data-fancybox="gallery1"> <img src={img44} alt="..."></img></a>
                 </div>
             </div>
 
-      </Element>
-
+        </Element>
+        </SRLWrapper>
 
     </>
 }

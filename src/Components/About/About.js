@@ -10,17 +10,17 @@ export default function About() {
 
             </div>
             <div className="logo">
-                <img src={Kaptured} alt="..." height="400px" width="300px" ></img>
+                <img src={Kaptured} alt="..." height="400px" width="400px" ></img>
             </div>
 
             <div className="About__Description">
 
 
-            <p>Bharath and Jagath running kapturedstudios from 2021, we live in chennai.Photography is our passion and we work to create
-            very simplistic and cinematically inspired.We love what we do and adore the creative process, it is addictive and can give
-            never ending possibilities.As a team, we will be keep on looking out for opputunities where we allow you to live and we will get you pictures
+            <p>Bharath and Jagath running kapturedstudios from 2021, We live in chennai. Photography is our passion and we work to create
+            very simplistic and cinematically inspired. We love what we do and adore the creative process, It is addictive and can give
+            never ending possibilities. As a team, We will be keep on looking out for opportunities where we allow you to live and we will get you pictures
             that remains forever and ever as sweet memories.
-            we will be thrilled to hear from you regarding photography project.</p>
+            We will be thrilled to hear from you regarding photography project.</p>
             <div className="contact__container">
 
             Please connect with us in &ensp;

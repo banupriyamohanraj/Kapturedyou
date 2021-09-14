@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* .Home__Title{
    
     display: block;
@@ -17,12 +18,34 @@
 } */
 
 .Home__container{
-      
+    background-image: url("../../Images/_DSC7962.jpg");
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width:100%;
     text-align: center;
     align-items: center;
     font-family: 'Roboto Slab', serif;
+    height: 100vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    
+    border: 2px solid;
+    position: fixed;
+}
+
+.quote>h1{
+text-align: center;
+font-family: 'Bebas Neue', cursive !important;
+font-size: 70px;
+
+}
+
+
+
+.quote{
+    position: absolute;
+    top:130px;
+    left:300px;
 }
