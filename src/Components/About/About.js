@@ -10,7 +10,7 @@ export default function About() {
 
             </div>
             <div className="logo">
-                <img src={Kaptured} alt="..." height="400px" width="400px" ></img>
+                <img src={Kaptured} alt="..."  ></img>
             </div>
 
             <div className="About__Description">

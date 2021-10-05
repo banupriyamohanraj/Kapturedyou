@@ -9,11 +9,11 @@ export default function Home() {
             <div className="row m-0">
                 <div className=" col-6 Home__subTitle">
                     <div className="quote">
-                        <h1>SMILE FOR<br /> A <span style={{color:"grey"}}>MOMENT</span>,<br /> LET ME <br /><span style={{color:"grey"}}>KAPTURE</span> YOU </h1>
+                        <p className="title1">SMILE FOR<br /> A <span style={{color:"grey"}}>MOMENT</span>,<br /> LET ME <br /><span style={{color:"grey"}}>KAPTURE</span> YOU </p>
                     
-                        <h5>Fashion | Event Photography</h5><br />
+                        <p classname="title2">Fashion | Event Photography</p><br />
 
-<Link to="/portfolio"><button type="button" className="btn btn-secondary" style={{backgroundColor:"grey",fontWeight:"600",padding:"10px"}}>PORTFOLIO</button></Link>
+<Link to="/portfolio"><button type="button" className="btn btn-secondary">PORTFOLIO</button></Link>
 
                     </div>
                 </div>

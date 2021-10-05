@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 export default function Navbar() {
     return <>
-    <div className="header">
+    <div className="header ">
             <div className="header__left">
             <img src={Kaptured} alt="logo" height="50px" width="50px" ></img>&emsp;
             </div>

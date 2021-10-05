@@ -12,8 +12,8 @@
 }
 
 .About__Description{
-    margin: 0 70px;
-    text-align: justify;
+    margin: 0 40px;
+    text-align: left;
     letter-spacing: 1px;
     word-spacing: 1mm;
     font-size: 18px;
@@ -22,9 +22,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    
     text-align: center;
     align-items: center;
+}
+.logo>img{
+    height:400px;
+    width:300px
 }
 
 .contact__container{
@@ -35,3 +39,4 @@
     margin-right: auto;
     align-items: center;
 }
+

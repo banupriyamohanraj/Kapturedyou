@@ -6,6 +6,7 @@
     color:white;
     background-color:black;
     top:0;
+/* padding: 0px !important; */
 
     position: sticky;
     z-index: 2000
@@ -14,8 +15,8 @@
 .header__left{
     flex:0.2;
     font-family: 'Roboto Slab', serif;
-    font-size: 30px;
-    padding-left: 10px;
+    padding: 5px;
+   
   
 }
 
@@ -25,7 +26,7 @@
   
     flex:3.5;
   text-align: start;
-
+margin-left:10px;
     font-family: 'Roboto Slab', serif;
    
 }
@@ -35,15 +36,15 @@
     cursor:pointer;
     transition: transform 100ms ease-in-out;
     font-family: 'Roboto Slab', serif;
-    padding:20px 0;
+    /* padding:10px 0; */
     letter-spacing: 1px;
 }
 
 .header__right > a > h6:hover{
-    transform:scale(1.1);
-    /* border-bottom: 1px solid white; */
+    transform:scale(1.0);
+    border-bottom: 1px solid grey;
     color:grey;
-    padding:20px 20px;
+    padding:5px 10px;
     border-radius:1px;
     letter-spacing: 1px;
     font-family: 'Roboto Slab', serif;
