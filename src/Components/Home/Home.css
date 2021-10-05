@@ -6,7 +6,7 @@
 
 
 .Home__container{
-    background-image: url("../../Images/_DSC7962.jpg");
+    background-image: url("../../Images/model_Kapturedyou.jpeg");
   
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +33,7 @@ letter-spacing: 1px;
 
 .btn{
     background-color:"grey";
-  
+    font-weight:"600";
     font-size:20px
 }
 
@@ -54,9 +54,13 @@ letter-spacing: 1px;
 
 .title1{
     font-size: 60px;
+    font-weight: bolder;
+   
 }
 .title2{
     font-size: 40px;
+    font-weight: bolder;
+    
 }
  /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 600px) { 
@@ -83,10 +87,11 @@ letter-spacing: 1px;
     }
     .title2{
         font-size: 10px;
+
     }
     .btn{
-        font-weight:"400";
-        font-size:10px
+        font-weight:"600";
+        font-size:20px
     }
     .btn:hover{
         cursor: pointer;
@@ -141,8 +146,8 @@ letter-spacing: 1px;
         font-size: 20px;
     }
     .btn{
-        font-weight:"400";
-        font-size:10px
+        font-weight:"600";
+        font-size:20px
     }
     .btn:hover{
         cursor: pointer;

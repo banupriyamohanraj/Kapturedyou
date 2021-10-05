@@ -12,7 +12,7 @@ export default function Footer(){
             </div>
             <div className="col-6">
                 <h5>+9840580165</h5>
-                <h5>+9840580165</h5>
+                <h5>+9003459440</h5>
             </div>
         </div>
         <div className="copyrights">
